@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Formulaire d'inscription étudiant avec contenu HTML5 enrichi - listes, tableaux et médias">
+    <meta name="keywords" content="HTML5, formulaires, inscription, étudiant, validation, accessibilité">
+    <meta name="author" content="École de Développement Web">
+    <title>Formulaire d'Inscription Étudiant - HTML5 Enrichi</title>
+</head>
+<body>
+    <header>
+        <h1>Contenu HTML5 Enrichi et Formulaires</h1>
+        <nav aria-label="Navigation principale">
+            <ul>
+                <li><a href="#exigences">Exigences du cours</a></li>
+                <li><a href="#progression">Suivi des étudiants</a></li>
+                <li><a href="#media">Contenu média</a></li>
+                <li><a href="#inscription">Formulaire d'inscription</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Section Listes -->
+        <section id="exigences" aria-labelledby="titre-exigences">
+            <h2 id="titre-exigences">Exigences du Cours</h2>
+            
+            <article>
+                <h3>Compétences à Maîtriser :</h3>
+                <ul role="list" aria-label="Liste des compétences requises">
+                    <li>Éléments sémantiques HTML5</li>
+                    <li>Techniques de validation de formulaires</li>
+                    <li>Meilleures pratiques d'accessibilité</li>
+                    <li>Principes de design responsive</li>
+                    <li>Optimisation SEO</li>
+                </ul>
+            </article>
+
+            <article>
+                <h3>Étapes du Devoir :</h3>
+                <ol role="list" aria-label="Étapes à suivre pour le devoir">
+                    <li>Créer du contenu structuré avec listes et tableaux</li>
+                    <li>Ajouter des éléments média (images, audio, vidéo)</li>
+                    <li>Construire un formulaire HTML5 complet</li>
+                    <li>Implémenter la validation native</li>
+                    <li>Tester l'accessibilité et l'utilisabilité</li>
+                </ol>
+            </article>
+        </section>
+
+        <!-- Section Tableau -->
+        <section id="progression" aria-labelledby="titre-progression">
+            <h2 id="titre-progression">Suivi de Progression des Étudiants</h2>
+            
+            <table role="table" aria-label="Tableau de progression des étudiants">
+                <caption>État d'avancement des devoirs par étudiant</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Nom de l'Étudiant</th>
+                        <th scope="col">Devoir</th>
+                        <th scope="col">Progression</th>
+                        <th scope="col">Date Limite</th>
+                        <th scope="col">Statut</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Alexandre Dubois</th>
+                        <td>Formulaires HTML5</td>
+                        <td>85%</td>
+                        <td><time datetime="2024-01-15">15 janvier 2024</time></td>
+                        <td><span aria-label="En cours"></span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Marie Lefebvre</th>
+                        <td>Layouts CSS</td>
+                        <td>92%</td>
+                        <td><time datetime="2024-01-12">12 janvier 2024</time></td>
+                        <td><span aria-label="Terminé"></span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Pierre Martin</th>
+                        <td>JavaScript Bases</td>
+                        <td>78%</td>
+                        <td><time datetime="2024-01-18">18 janvier 2024</time></td>
+                        <td><span aria-label="En cours"></span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Sophie Bernard</th>
+                        <td>Accessibilité Web</td>
+                        <td>95%</td>
+                        <td><time datetime="2024-01-20">20 janvier 2024</time></td>
+                        <td><span aria-label="Excellent"></span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Section Média -->
+        <section id="media" aria-labelledby="titre-media">
+            <h2 id="titre-media">Contenu Média</h2>
+            
+            <article>
+                <h3>Ressources Visuelles du Cours</h3>
+                
+                <figure role="img" aria-labelledby="banniere-desc">
+                    <div style="width: 400px; height: 200px; background: linear-gradient(45deg, #3498db, #9b59b6); color: white; display: flex; align-items: center; justify-content: center; margin: 20px auto; border-radius: 8px;">
+                        Bannière du Cours HTML5 & CSS3
+                    </div>
+                    <figcaption id="banniere-desc">Image promotionnelle du cours de développement web</figcaption>
+                </figure>
+
+                <figure role="img" aria-labelledby="audio-desc">
+                    <div style="width: 350px; height: 150px; background: linear-gradient(45deg, #e74c3c, #f39c12); color: white; display: flex; align-items: center; justify-content: center; margin: 20px auto; border-radius: 8px;">
+                        🎵 Aperçu Audio - Introduction aux Formulaires
+                    </div>
+                    <figcaption id="audio-desc">Extrait audio de la leçon sur les formulaires web</figcaption>
+                </figure>
+
+                <figure role="img" aria-labelledby="video-desc">
+                    <div style="width: 450px; height: 250px; background: linear-gradient(45deg, #27ae60, #2ecc71); color: white; display: flex; align-items: center; justify-content: center; margin: 20px auto; border-radius: 8px;">
+                        🎬 Tutoriel Vidéo - Validation HTML5
+                    </div>
+                    <figcaption id="video-desc">Démonstration pratique des techniques de validation</figcaption>
+                </figure>
+            </article>
+        </section>
+
+        <!-- Section Formulaire -->
+        <section id="inscription" aria-labelledby="titre-inscription">
+            <h2 id="titre-inscription">Formulaire d'Inscription Étudiant</h2>
+            
+            <form action="#" method="post" novalidate aria-label="Formulaire d'inscription étudiant">
+                
+                <fieldset>
+                    <legend>Informations Personnelles</legend>
+                    
+                    <div>
+                        <label for="prenom">Prénom <abbr title="obligatoire" aria-label="champ obligatoire">*</abbr></label>
+                        <input type="text" id="prenom" name="prenom" required 
+                               minlength="2" maxlength="50" 
+                               placeholder="Entrez votre prénom"
+                               autocomplete="given-name"
+                               aria-describedby="prenom-aide">
+                        <small id="prenom-aide">Minimum 2 caractères</small>
+                    </div>
+                    
+                    <div>
+                        <label for="nom">Nom de famille <abbr title="obligatoire" aria-label="champ obligatoire">*</abbr></label>
+                        <input type="text" id="nom" name="nom" required 
+                               minlength="2" maxlength="50" 
+                               placeholder="Entrez votre nom"
+                               autocomplete="family-name"
+                               aria-describedby="nom-aide">
+                        <small id="nom-aide">Minimum 2 caractères</small>
+                    </div>
+
+                    <div>
+                        <label for="email">Adresse e-mail <abbr title="obligatoire" aria-label="champ obligatoire">*</abbr></label>
+                        <input type="email" id="email" name="email" required 
+                               placeholder="etudiant@exemple.fr" 
+                               autocomplete="email"
+                               aria-describedby="email-aide">
+                        <small id="email-aide">Format : nom@domaine.fr</small>
+                    </div>
+
+                    <div>
+                        <label for="telephone">Numéro de téléphone</label>
+                        <input type="tel" id="telephone" name="telephone" 
+                               pattern="0[1-9]([0-9]{8})" 
+                               placeholder="0123456789" 
+                               autocomplete="tel"
+                               aria-describedby="tel-aide">
+                        <small id="tel-aide">Format : 10 chiffres commençant par 0</small>
+                    </div>
+
+                    <div>
+                        <label for="naissance">Date de naissance</label>
+                        <input type="date" id="naissance" name="naissance" 
+                               min="1950-01-01" max="2010-12-31"
+                               aria-describedby="naissance-aide">
+                        <small id="naissance-aide">Entre 1950 et 2010</small>
+                    </div>
+
+                    <div>
+                        <label for="adresse">Adresse complète</label>
+                        <textarea id="adresse" name="adresse" rows="3" 
+                                  placeholder="Numéro, rue, ville, code postal"
+                                  autocomplete="street-address"
+                                  aria-describedby="adresse-aide"></textarea>
+                        <small id="adresse-aide">Adresse de résidence actuelle</small>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Informations Académiques</legend>
+                    
+                    <div>
+                        <label for="numeroEtudiant">Numéro étudiant <abbr title="obligatoire" aria-label="champ obligatoire">*</abbr></label>
+                        <input type="text" id="numeroEtudiant" name="numeroEtudiant" required 
+                               pattern="[A-Z]{2}[0-9]{6}" 
+                               placeholder="AB123456" 
+                               title="Format : 2 lettres majuscules suivies de 6 chiffres"
+                               aria-describedby="numero-aide">
+                        <small id="numero-aide">Format : 2 lettres + 6 chiffres (ex: AB123456)</small>
+                    </div>
+
+                    <div>
+                        <label for="programme">Programme d'études <abbr title="obligatoire" aria-label="champ obligatoire">*</abbr></label>
+                        <select id="programme" name="programme" required aria-describedby="programme-aide">
+                            <option value="">Sélectionnez votre programme</option>
+                            <option value="informatique">Informatique</option>
+                            <option value="web">Développement Web</option>
+                            <option value="design">Design Graphique</option>
+                            <option value="commerce">Administration des Affaires</option>
+                            <option value="multimedia">Multimédia</option>
+                        </select>
+                        <small id="programme-aide">Choisissez votre domaine d'études principal</small>
+                    </div>
+
+                    <fieldset>
+                        <legend>Année académique <abbr title="obligatoire" aria-label="champ obligatoire">*</abbr></legend>
+                        <div role="radiogroup" aria-describedby="annee-aide">
+                            <div>
+                                <input type="radio" id="annee1" name="annee" value="1" required>
+                                <label for="annee1">1ère année</label>
+                            </div>
+                            <div>
+                                <input type="radio" id="annee2" name="annee" value="2" required>
+                                <label for="annee2">2ème année</label>
+                            </div>
+                            <div>
+                                <input type="radio" id="annee3" name="annee" value="3" required>
+                                <label for="annee3">3ème année</label>
+                            </div>
+                            <div>
+                                <input type="radio" id="annee4" name="annee" value="4" required>
+                                <label for="annee4">4ème année</label>
+                            </div>
+                        </div>
+                        <small id="annee-aide">Sélectionnez votre niveau d'études actuel</small>
+                    </fieldset>
+
+                    <div>
+                        <label for="moyenne">Moyenne générale actuelle</label>
+                        <input type="number" id="moyenne" name="moyenne" 
+                               min="0" max="20" step="0.1" 
+                               placeholder="15.5"
+                               aria-describedby="moyenne-aide">
+                        <small id="moyenne-aide">Note sur 20 (optionnel)</small>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Préférences de Cours</legend>
+                    
+                    <fieldset>
+                        <legend>Cours qui vous intéressent (sélectionnez tous ceux qui s'appliquent) :</legend>
+                        <div role="group" aria-describedby="cours-aide">
+                            <div>
+                                <input type="checkbox" id="html5" name="cours" value="html5">
+                                <label for="html5">HTML5 et CSS3</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="javascript" name="cours" value="javascript">
+                                <label for="javascript">JavaScript</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="react" name="cours" value="react">
+                                <label for="react">React</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="nodejs" name="cours" value="nodejs">
+                                <label for="nodejs">Node.js</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="php" name="cours" value="php">
+                                <label for="php">PHP</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="python" name="cours" value="python">
+                                <label for="python">Python</label>
+                            </div>
+                        </div>
+                        <small id="cours-aide">Choisissez les technologies qui vous intéressent</small>
+                    </fieldset>
+
+                    <div>
+                        <label for="experience">Expérience en programmation (années)</label>
+                        <input type="range" id="experience" name="experience" 
+                               min="0" max="10" value="1" 
+                               aria-describedby="experience-aide experience-valeur">
+                        <output id="experience-valeur" for="experience">1</output> année(s)
+                        <small id="experience-aide">Glissez pour indiquer votre niveau d'expérience</small>
+                    </div>
+
+                    <div>
+                        <label for="motivation">Pourquoi souhaitez-vous rejoindre ce programme ? <abbr title="obligatoire" aria-label="champ obligatoire">*</abbr></label>
+                        <textarea id="motivation" name="motivation" required 
+                                  minlength="50" maxlength="500" rows="5" 
+                                  placeholder="Parlez-nous de vos objectifs et de votre motivation..."
+                                  aria-describedby="motivation-aide"></textarea>
+                        <small id="motivation-aide">Entre 50 et 500 caractères. Décrivez vos aspirations professionnelles.</small>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Informations Complémentaires</legend>
+                    
+                    <div>
+                        <label for="siteWeb">Site web personnel / Portfolio</label>
+                        <input type="url" id="siteWeb" name="siteWeb" 
+                               placeholder="https://monportfolio.fr"
+                               aria-describedby="site-aide">
+                        <small id="site-aide">URL complète de votre site (optionnel)</small>
+                    </div>
+
+                    <div>
+                        <label for="codeParrainage">Code de parrainage</label>
+                        <input type="text" id="codeParrainage" name="codeParrainage" 
+                               readonly value="ETUDIANT2024" 
+                               title="Ce champ est en lecture seule"
+                               aria-describedby="parrainage-aide">
+                        <small id="parrainage-aide">Code promotionnel automatiquement appliqué</small>
+                    </div>
+
+                    <div>
+                        <label for="dateDebut">Date de début souhaitée <abbr title="obligatoire" aria-label="champ obligatoire">*</abbr></label>
+                        <input type="datetime-local" id="dateDebut" name="dateDebut" required
+                               aria-describedby="debut-aide">
+                        <small id="debut-aide">Sélectionnez votre date et heure de début préférées</small>
+                    </div>
+
+                    <div>
+                        <label for="commentaires">Commentaires ou questions supplémentaires</label>
+                        <textarea id="commentaires" name="commentaires" rows="4" 
+                                  maxlength="300"
+                                  placeholder="Avez-vous des questions particulières ou des besoins spéciaux ?"
+                                  aria-describedby="commentaires-aide"></textarea>
+                        <small id="commentaires-aide">Maximum 300 caractères (optionnel)</small>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Consentements et Confirmations</legend>
+                    
+                    <div>
+                        <input type="checkbox" id="conditions" name="conditions" required
+                               aria-describedby="conditions-aide">
+                        <label for="conditions">J'accepte les <a href="#conditions-utilisation">conditions d'utilisation</a> et la <a href="#politique-confidentialite">politique de confidentialité</a> <abbr title="obligatoire" aria-label="champ obligatoire">*</abbr></label>
+                        <small id="conditions-aide">Acceptation obligatoire pour finaliser l'inscription</small>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" id="newsletter" name="newsletter">
+                        <label for="newsletter">Je souhaite recevoir la newsletter avec les actualités et offres spéciales</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" id="contact" name="contact">
+                        <label for="contact">J'autorise l'école à me contacter par téléphone pour le suivi pédagogique</label>
+                    </div>
+                </fieldset>
+
+                <div>
+                    <button type="submit" aria-describedby="submit-aide">
+                        Soumettre ma candidature
+                    </button>
+                    <small id="submit-aide">Vérifiez vos informations avant de soumettre</small>
+                </div>
+
+                <div>
+                    <button type="reset">
+                        Réinitialiser le formulaire
+                    </button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div>
+            <h3>École de Développement Web</h3>
+            <address>
+                Xxxxxx<br>
+                Xxxxx, xxxxx<br>
+                Téléphone : <a href="tel:0000000000">00000000</a><br>
+                E-mail : <a href="mailto:contact@ecole-web.fr">contact@ecole-web.fr</a>
+            </address>
+        </div>
+        
+        <div>
+            <h4>Liens Utiles</h4>
+            <ul>
+                <li><a href="#conditions-utilisation">Conditions d'utilisation</a></li>
+                <li><a href="#politique-confidentialite">Politique de confidentialité</a></li>
+                <li><a href="#accessibilite">Déclaration d'accessibilité</a></li>
+                <li><a href="#plan-site">Plan du site</a></li>
+            </ul>
+        </div>
+        
+        <small>
+            © 2025 École de Développement Web. Tous droits réservés
+        </small>
+    </footer>
+</body>
+</html>
