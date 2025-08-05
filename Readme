@@ -1,6 +1,5 @@
 Projet : Formulaire d'Inscription Étudiant - HTML5 Enrichi
 Ce projet est une page web complète conçue pour répondre aux exigences d'un devoir sur le HTML5 avancé. Il démontre la maîtrise de la structuration de contenu riche et la création de formulaires web complexes, en mettant un accent particulier sur la sémantique et l'accessibilité.
-
 🚀 Objectif
 L'objectif principal de ce projet est de présenter une page unique qui intègre :
 Du contenu organisé à l'aide de listes et de tableaux.
@@ -8,7 +7,6 @@ Des emplacements pour des médias (image, audio, vidéo) en utilisant des balise
 Un formulaire HTML5 détaillé et multi-sections pour l'inscription d'un étudiant.
 L'utilisation extensive des attributs de validation natifs d'HTML5.
 Des bonnes pratiques d'accessibilité (ARIA, labels, etc.) pour garantir une expérience utilisateur inclusive.
-
 ✨ Fonctionnalités
 La page est divisée en plusieurs sections thématiques :
 Exigences du cours : Utilise des listes ordonnées (<ol>) et non ordonnées (<ul>) pour structurer les informations.
@@ -20,10 +18,8 @@ Validation native : required, minlength, maxlength, pattern, min, max.
 Attributs d'aide : placeholder, autocomplete, title.
 Accessibilité renforcée : Chaque champ est associé à un <label> et souvent décrit par des attributs aria-describedby pour lier des instructions supplémentaires.
 Champs spécifiques : readonly, select, textarea, radio, checkbox.
-
 🛠️ Comment l'utiliser
 Aucune installation n'est requise. Il suffit de cloner ce projet et d'ouvrir le fichier enhanced-form.html (ou le nom que vous lui avez donné) directement dans un navigateur web moderne (Chrome, Firefox, Edge, etc.).
-
 📝 Points à noter
 Absence de CSS externe : Le style est minimal et principalement fonctionnel. L'objectif était de se concentrer sur la structure HTML.
 Médias simulés : Pour des raisons de simplicité, les éléments <audio> et <video> n'ont pas de fichiers source (src). Les images sont également représentées par des blocs div stylisés.
